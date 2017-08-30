@@ -1,0 +1,31 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          館
+paginate:       5
+baseurl:        ""
+url:            "https://li_xd.github.io"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         XiaoDong.Li
+  url:          http://blog.lixd.ml
+  email:        a5834099147@live.cn
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/li_xd/li_xd.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
