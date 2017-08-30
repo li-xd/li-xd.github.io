@@ -5,7 +5,7 @@ permalink:      /:year-:month-:day/:title
 title:          館
 paginate:       5
 baseurl:        ""
-url:            "https://li_xd.github.io"
+url:            "https://li-xd.github.io"
 
 # Assets
 sass:
@@ -24,7 +24,7 @@ author:
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/li_xd/li_xd.github.io
+  repo:         https://github.com/li-xd/li-xd.github.io
 
 # Gems
 gems:
