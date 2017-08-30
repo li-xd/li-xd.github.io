@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "About"
+title: "关于"
 author: "XiaoDong.Li"
-permalink: /about/
+permalink: /about
 ---
 
-一位热爱学习的程序员 😊
+  本人男，爱好多！
+
+  作为一名资深宅基腐，同时是一名IT攻城师。
