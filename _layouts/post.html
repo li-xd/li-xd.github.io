@@ -20,3 +20,18 @@ layout: default
 
   <a href="#" class="top">Top</a>
 </div>
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'li-xd',
+    repo: 'li-xd/li-xd.github.io',
+    oauth: {
+        client_id: 'Iv1.4b072f8826d6c7a3',
+        client_secret: '22c4e7798a3ecd8600f3c9ca8fdb03d0e78a83bc',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
