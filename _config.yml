@@ -5,7 +5,7 @@ permalink:      /:year-:month-:day/:title
 title:          館
 paginate:       5
 baseurl:        ""
-url:            "https://li-xd.github.io"
+url:            "https://blog.lixd.club"
 
 # Assets
 sass:
@@ -17,9 +17,9 @@ markdown:       kramdown
 
 # About
 author:
-  name:         XiaoDong.Li
+  name:         xiaodong.li
   url:          http://blog.lixd.club
-  email:        a5834099147@live.cn
+  email:        lixd@outlook.it
 
 # Custom vars
 version:        3.4.1
