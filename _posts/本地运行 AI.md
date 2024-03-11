@@ -1,6 +1,9 @@
 ---  
 share: true  
 title: 本地运行 AI  
+filename: 2024-03-11-本地运行AI  
+layout: post  
+author: xiaodong.li  
 tags:  
   - 完成  
 ---  
