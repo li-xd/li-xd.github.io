@@ -1,9 +1,9 @@
 ---  
 share: true  
 title:  
-  "{ tp.file.title }":   
+  "{ tp_title }":   
 date:  
-  "{ tp.date.now(\"YYYY-MM-DD\") }":   
+  "{ tp_date }":   
 tags:  
   - 笔记  
   - 计算机_操作系统  
