@@ -4,12 +4,12 @@ languageCode = "zh-cn"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
-#PygmentsStyle = "monokai"
-PygmentsStyle = "github-dark"
+PygmentsStyle = "monokai"
+#PygmentsStyle = "github-dark"
 
 paginate  = 14
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 googleAnalytics = "G-64SFJDWRTC"
 # disqusShortname = ""
@@ -30,7 +30,7 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS     = true
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -119,8 +119,8 @@ disableHugoGeneratorInject = false
   #
   [params.footer]
     trademark = 2024
-    rss = true
-    copyright = true
+    rss = false
+    copyright = falst
     author = true
 
     topText = []
@@ -163,11 +163,11 @@ disableHugoGeneratorInject = false
    [params.utterances]
   #   Your GitHub repository
   #
-     repository = "goby-ao/goby-ao.github.io"
+     repository = "li-xd/li-xd.github.io"
   #
   #   label used for GitHub issues
   #
-     label      = "blog comment"
+     label      = "评论"
   # 
   #   Blog Post <-> Issue mapping. This parameter is optional. Possible values are:
   #      - pathname
@@ -190,7 +190,7 @@ disableHugoGeneratorInject = false
   #      - boxy-light
   #      - gruvbox-dark
   #
-     theme      = "github-light"
+     theme      = "boxy-light"
 
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
@@ -207,25 +207,22 @@ disableHugoGeneratorInject = false
     url  = "https://github.com/li-xd"
 
 [languages]
-  [languages.en]
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   [languages.en.params]
-    subtitle  = "Yao's Blog"
+    subtitle  = "錧"
 
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name       = "Posts"
+    name       = "内容"
     url        = "posts/"
     weight     = "1"
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "关于我"
     url        = "about/"
     weight     = "10"
  [[menu.main]]
    identifier = "tags"
-   name       = "Tags"
+   name       = "标签"
    url        = "/tags/"
    weight     = "9"
