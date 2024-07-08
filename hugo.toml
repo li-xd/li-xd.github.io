@@ -46,6 +46,28 @@ disableHugoGeneratorInject = false
   category = "categories"
   series   = "series"
 
+[languages]
+  [languages.en.params]
+    subtitle  = "錧"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name       = "内容"
+    url        = "posts/"
+    weight     = "1"
+  [[menu.main]]
+    identifier = "about"
+    name       = "关于我"
+    url        = "about/"
+    weight     = "10"
+ [[menu.main]]
+   identifier = "tags"
+   name       = "标签"
+   url        = "/tags/"
+   weight     = "9"
+
+
 [params]
     [params.author]
     name = "妙行"
@@ -64,7 +86,7 @@ disableHugoGeneratorInject = false
     
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "HI"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -205,24 +227,3 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "github"
     url  = "https://github.com/li-xd"
-
-[languages]
-  [languages.en.params]
-    subtitle  = "錧"
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name       = "内容"
-    url        = "posts/"
-    weight     = "1"
-  [[menu.main]]
-    identifier = "about"
-    name       = "关于我"
-    url        = "about/"
-    weight     = "10"
- [[menu.main]]
-   identifier = "tags"
-   name       = "标签"
-   url        = "/tags/"
-   weight     = "9"
