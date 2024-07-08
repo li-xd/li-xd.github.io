@@ -1,9 +1,7 @@
 ---  
 share: true  
-title:  
-  "{ tp_title }":   
-date:  
-  "{ tp_date }":   
+title: LINUX 最大句柄限制  
+date: 2024-07-08  
 tags:  
   - 笔记  
   - 计算机_操作系统  
