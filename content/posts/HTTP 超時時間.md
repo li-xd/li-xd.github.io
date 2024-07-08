@@ -1,7 +1,11 @@
 ---  
 share: true  
 filname:  
-  "{ tp_title }":   
+  "{ tp.file.title }":   
+title:  
+  "{ tp.file.title }":   
+date:  
+  "{ tp.date.now(\"YYYY-MM-DD\") }":   
 tags:  
   - 笔记  
   - 计算机_网络  
