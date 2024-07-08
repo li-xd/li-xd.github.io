@@ -1,7 +1,5 @@
 ---  
 share: true  
-filname:  
-  "{ tp.file.title }":   
 title:  
   "{ tp.file.title }":   
 date:  
