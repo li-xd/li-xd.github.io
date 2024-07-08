@@ -120,7 +120,7 @@ disableHugoGeneratorInject = false
   [params.footer]
     trademark = 2024
     rss = false
-    copyright = falst
+    copyright = false
     author = true
 
     topText = []
