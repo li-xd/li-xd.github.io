@@ -92,7 +92,7 @@ disableHugoGeneratorInject = false
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   # Global language menu
   #
@@ -123,10 +123,10 @@ disableHugoGeneratorInject = false
     copyright = false
     author = true
 
-    topText = []
-    bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-    ]
+    #topText = []
+    #bottomText = [
+    #  "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    #]
 
   # Colors for favicons
   [params.favicon.color]
